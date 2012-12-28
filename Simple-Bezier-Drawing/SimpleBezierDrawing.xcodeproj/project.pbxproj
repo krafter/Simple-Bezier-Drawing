@@ -228,7 +228,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -255,7 +255,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -272,14 +272,12 @@
 		507D7DAB168C2D3900556030 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Blosenco Tatiana (GB63BGR573)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Blosenco Tatiana (GB63BGR573)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "testingDrawing/SimpleBezierDrawing-Prefix.pch";
 				INFOPLIST_FILE = "testingDrawing/SimpleBezierDrawing-Info.plist";
 				PRODUCT_NAME = SimpleBezierDrawing;
-				PROVISIONING_PROFILE = "982900EF-5CDD-4019-A52D-2AD5655BEE55";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "982900EF-5CDD-4019-A52D-2AD5655BEE55";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -287,14 +285,12 @@
 		507D7DAC168C2D3900556030 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Blosenco Tatiana (GB63BGR573)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Blosenco Tatiana (GB63BGR573)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "testingDrawing/SimpleBezierDrawing-Prefix.pch";
 				INFOPLIST_FILE = "testingDrawing/SimpleBezierDrawing-Info.plist";
 				PRODUCT_NAME = SimpleBezierDrawing;
-				PROVISIONING_PROFILE = "982900EF-5CDD-4019-A52D-2AD5655BEE55";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "982900EF-5CDD-4019-A52D-2AD5655BEE55";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
